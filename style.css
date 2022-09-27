@@ -1,0 +1,64 @@
+/* initialise the document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Bookshop logo */
+.logo{
+    width: 7%;
+    height: 7%;
+    object-fit: contain;
+}
+
+/* card personalize */
+.card-margin, .logo-left{
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.btn-secondary{
+    margin-left: 30%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card-img-top{
+    margin-top: 2%;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.porfil_image{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: auto;
+}
+
+.edit_image{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.profil_nav{
+    height: 100vh;
+}
+
+.admin_image{       
+    width: 100px;
+    object-fit: contain;
+}
+.book_image{       
+    width: 50px;
+    object-fit: contain;
+}
